@@ -1,0 +1,93 @@
+* {
+  box-sizing: border-box;
+}
+/* flex-container */
+section {
+  border: 2px solid red;
+  padding: 5px;
+  /* flex properties */
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+*/
+
+/* flex-child */
+div {
+  border: 2px solid blue;
+  /* flex properties */
+}
+
+/* div + div {
+  margin-left: 10px;
+} */
+
+.logo {
+  margin-right: auto;
+}
+
+.sec {
+  border: 2px solid red;
+  padding: 5px;
+  /* flex properties */
+  display: flex;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.sect {
+  border: 2px solid red;
+  padding: 5px;
+  /* flex properties */
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  gap: 10px;
+}
+
+footer {
+  display: flex;
+  /* gap: 10px; */
+  align-items: stretch;
+}
+
+article {
+  border: 5px solid blue;
+  width: 50%;
+  padding: 15px 15px;
+}
+*/ section {
+  max-width: 1000px;
+  min-width: 320px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.sec-cards {
+  display: flex;
+  gap: 15px;
+}
+.card {
+  border: 5px solid purple;
+  width: 100%;
+  padding: 10px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  height: 200px;
+}
